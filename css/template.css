@@ -19,6 +19,18 @@ body{
 	background: rgba(0, 0, 0, 0.6);
 	position: absolute;
 }
+.tituloacordeon{
+        background: #aeb1b3;
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
+}
+.masrest{
+        background: #aeb1b3;
+    border: 1px solid;
+    border-radius: 0px 0px 10px 10px;
+}
 #btn_derecha{
     padding-top: 18px;
 }
