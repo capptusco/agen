@@ -362,7 +362,7 @@ float:left;
     margin: 0 auto;
     z-index: 500;
     position: absolute;
-    top: 60%;
+    top: 52%;
     left: 9%;
     padding: 0px;
     margin: 0px;
@@ -500,8 +500,11 @@ float:left;
     position: relative;
     display: block;
     padding: 10px 4px !important;
-    font-size: 10px;
-}adsdasdasd
+    font-size: 13px;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
 #buscador_menu_top {
     background-color: transparent;
     border: 0px;
@@ -518,7 +521,7 @@ float:left;
     padding-bottom: 15px;
 }
 #menu {
-    padding-top: 20px;
+    padding-top: 10px;
         margin-right: 0px;
     padding-right: 0px;
 }
@@ -536,13 +539,15 @@ float:left;
 #exampleSlider .descslide{
         z-index: 500;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 35%;
     text-align: center;
     color:white;
 }
 
-
+.navbar{
+    margin-bottom: 0px !important;
+}
 @media (max-width: 768px) {
   #menusup{
     position: relative;
