@@ -57,12 +57,12 @@
 			<!--Inicio Top2-->
 			<div id="top2" class="col-md-10">
 				<!--Inicio logos-->
-				<div id="logos" class="col-md-4">
+				<div id="logos" class="col-md-3">
 					<img  class="img-responsive" src="./img/logo-home.png"/>
 				</div>
 				<!--Fin logos-->
 				<!--Inicio menu-->
-				<div id="menu" class="col-md-8 col-xlg-5 col-xlg-offset-3">
+				<div id="menu" class="col-md-9 col-xlg-5 col-xlg-offset-3">
 					<nav class="navbar">
 					  <div class="container-fluid  navbar-inverse">
 					    <div class="navbar-header">
