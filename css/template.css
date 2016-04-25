@@ -218,15 +218,64 @@ border-bottom: 5px solid blue;
 .paquete img{
     width:100%;
 }
-.paquete{
-margin-top: 35px;
-color:white;
+.paquete {
+    margin-top: 35px;
+    color: white;
+    padding: 30px 30px 0px 35px;
+}
+.tour{
+   
+
+    border: 1px solid;
+    padding: 15px 15px 15px 0px;
+}
+.imagenprecio{
+    display: flex;
+        padding: 0px;
 }
 .nombrepaquete{
 background:#434a54;
 }
+
+.preciotour{
+
+        background: blue;
+    text-align: center;
+    padding: 25px;
+    color: white;
+        padding-top: 35px;
+}
+.dolartour {
+    width: 45%;
+    float: left;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 8px;
+}
+.btnreserva{
+        margin-top: 15px;
+}
+.usdtour {
+    width: 25%;
+    font-size: 24px;
+    font-weight: 100;
+    float: left;
+    text-align: right;
+    padding-top: 7px;
+    /* padding-left: 10px; */
+    margin-left: 35px;
+}
+.incluimp{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
 .nombrepaquete p{
-margin:0px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
 }
 
 .imagenpaquete,.descpaquete,.nombrepaquete{
@@ -266,9 +315,10 @@ float:left;
 float:left;
     padding-top: 17px;
 }
+
 .precio .dolares {
     padding-right: 8px;
-        font-size: 24px;
+    font-size: 70px;
     font-weight: bold;
     padding-top: 10px;
     padding-left: 0px;
@@ -277,7 +327,6 @@ float:left;
     color: white;
     float: right;
 }
-
 .final {
     text-transform: uppercase;
     color: white;
@@ -291,17 +340,7 @@ float:left;
     padding-left: 8px;
 }
 
-.precio .dolares {
-    padding-right: 8px;
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    margin: 0px;
-    color: white;
-    float: right;
-}
+
 #logos img{
     margin:0px;
     padding: 0px;
@@ -334,7 +373,7 @@ float:left;
     font-size: 30px;
 }
 .vermas{
-	top: 35%;
+	top: 50%;
     position: absolute;
     right: 0;
     left: 0;
@@ -353,14 +392,16 @@ float:left;
 	
     opacity: 1;
 }
-.vermas a{
-	    color: white;
-    border: 1px solid white;
+.vermas a {
+    color: white;
+    border: 3px solid white;
     width: 25%;
     margin: 0 auto;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 0px;
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.6);
+        text-transform: uppercase;
 }
 #buscadorhoteles{
 	width: 100%;

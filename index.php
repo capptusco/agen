@@ -105,7 +105,7 @@ include('superior.php');
 				<img src="img/tours_home/foto_alrededores.png" class="img-responsive"/>
 				<div class="fantasma">	
 					<div class="vermas">
-						<a href="#">Ver mas</a>
+						<a href="#">VER DETALLES</a>
 					</div>
 				</div>
 			</div>
@@ -130,7 +130,7 @@ include('superior.php');
 				<img src="img/tours_home/foto_iglesia.png" class="img-responsive"/>
 				<div class="fantasma">	
 					<div class="vermas">
-						<a href="#">Ver mas</a>
+						<a href="#">VER DETALLES</a>
 					</div>
 				</div>
 			</div>
@@ -161,7 +161,7 @@ include('superior.php');
 				<img src="img/tours_home/foto_amazonia.png" class="img-responsive"/>
 				<div class="fantasma">	
 					<div class="vermas">
-						<a href="#">Ver mas</a>
+						<a href="#">VER DETALLES</a>
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@ include('superior.php');
 				<img src="img/tours_home/foto_galapagos.png" class="img-responsive"/>
 				<div class="fantasma">	
 					<div class="vermas">
-						<a href="#">Ver mas</a>
+						<a href="#">VER DETALLES</a>
 					</div>
 				</div>
 			</div>
