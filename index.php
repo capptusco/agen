@@ -88,10 +88,10 @@ include('superior.php');
 	<div id="paquetes" class="row">
 		<!--Inicio encabezado_paquetes-->
 		<div id="encabezado_paquetes" class="row">
-			<div id="titulo" class="col-md-5 col-md-offset-1">
+			<div id="titulo" class="col-md-6">
 				<h1>TOURS</h1>
 			</div>
-			<div id="btn_derecha" class="col-md-2 col-md-offset-3">
+			<div id="btn_derecha" class="col-md-3 col-md-offset-3">
 				<img src="img/btn_ver_todos.png"/>
 			</div>
 		</div>
