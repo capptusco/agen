@@ -1,21 +1,17 @@
 <!--Inicio Footer-->
 <div id="footer" class="col-md-12">
 	<!--Inicio patrocinadores-->
-	<div id="patrocinadores" class="row">
+	<div id="patrocinadores" class="col-md-10 centrar">
 		<!--Inicio logopat-->
-		<div id="logopat" class="col-md-8">
+		<div id="logopat" class="col-md-6">
 			<img class="img-responsive" src="./img/logo_footer.png">
 		</div>
 		<!--Fin logopat-->
+		<div id="copyright" class="col-md-6">
+			<a>Todos los derechos reservados HABITATIII-ECUADOR-TRAVEL 2016</a>
+		</div>
 	</div>
 	<!--Fin patrocinadores-->
-	<!--Inicio copyright-->
-	<div id="copy" class="row">
-		<div id="copyright" class="col-md-5 col-md-offset-1">
-			<a>Todos los derechos reservados HABITATIII-ECUADOR-TRAVEL 2016</a>
-			</div>
-	</div>
-	<!--Fin copyright-->
 	<!--Start of Zopim Live Chat Script-->
 	<script type="text/javascript">
 	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
