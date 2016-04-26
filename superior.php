@@ -8,7 +8,7 @@
 			<!--Inicio Top1-->
 			<div id="top1" class="col-md-10">
 				<!--Inicio Perfil-->
-				<div id="perfil" class="col-md-5">
+				<div id="perfil" class="col-md-5 col-xs-12 col-sm-6">
 					<ul class="nav navbar-nav">
 					
 						<li id= item_perfil class="active"><a href="#">MI PERFIL<span class="sr-only">(current)</span></a></li>
@@ -29,23 +29,21 @@
 				</div>
 				<!--Fin Perfil-->
 				<!--Inicio Social-->
-				<div id="social" class="col-md-7 col-xlg-4 col-xlg-offset-2">
-					<form class="navbar-form" role="search">
-						<div class="input-group">
-							<input  id="buscador_menu_top" type="text" class="form-control" placeholder="" name="q">
-							<div class="input-group-btn">
-								<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+				<div id="social" class="col-md-7 col-xlg-4 col-xlg-offset-2 col-xs-12 col-sm-6">
+					<div class="col-md-6 col-sm-6 col-xs-6 colbuscar">
+						<form class="navbar-form" role="search">
+							<div class="">
+								<input  id="buscador_menu_top" type="text" class="form-control" placeholder="" name="q">
+								<i class="fa fa-search" aria-hidden="true"></i><a class="separadortop">|</a>
 							</div>
-						</div>
-						
-						<a href="#"><img src="img/btn_facebook.png" /> </a>
-						<a href="#"><img src="img/btn_twitter.png" /> </a>
-						<a href="#"><img src="img/btn_skype.png" /> </a>
-						<a href="#"><img src="img/btn_whatsapp.png" /> </a>
-						<a href="#"><img src="img/btn_instagram.png" /></a>
+						</form>
+					</div>
+					<div class="col-md-3 col-xs-3 col-sm-3 contactenos">
+						<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contactenos</a>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 colbotones">
 						<a href="#"><img src="img/btn_chat_online.png" /></a>
-						
-					</form>
+					</div>
 				</div>
 				<!--Fin Social-->
 			</div>
@@ -57,12 +55,12 @@
 			<!--Inicio Top2-->
 			<div id="top2" class="col-md-10">
 				<!--Inicio logos-->
-				<div id="logos" class="col-md-3">
+				<div id="logos" class="col-md-3 col-sm-3">
 					<img  class="img-responsive" src="./img/logo-home.png"/>
 				</div>
 				<!--Fin logos-->
 				<!--Inicio menu-->
-				<div id="menu" class="col-md-9 col-xlg-5 col-xlg-offset-3">
+				<div id="menu" class="col-md-9 col-sm-9 col-xlg-5 col-xlg-offset-3">
 					<nav class="navbar">
 					  <div class="container-fluid  navbar-inverse">
 					    <div class="navbar-header">
@@ -146,7 +144,7 @@
 				 <ul class="nav nav-tabs">
 				    <li class="active"><a data-toggle="tab" href="#aereos"><i class="fa fa-plane" aria-hidden="true"></i><p>Boletos Aereos</p></a></li>
 				    <li><a data-toggle="tab" href="#traslados"><i class="fa fa-car" aria-hidden="true"></i><p>Traslados</p></a></li>
-				    <li><a data-toggle="tab" href="#hoteles"><i class="fa fa-building" aria-hidden="true"></i><p>Hoteles</p></a></li>
+				    <li><a data-toggle="tab" href="#hotelesbuscar"><i class="fa fa-building" aria-hidden="true"></i><p>Hoteles</p></a></li>
 				    <li><a data-toggle="tab" href="#tours"><i class="fa fa-road" aria-hidden="true"></i><p>Tours</p></a></li>
 				  </ul>
 			</div>
@@ -154,55 +152,295 @@
 
 			<div class="tab-content">
 			    <div id="aereos" class="tab-pane fade in active">
-			    	<!--Inicio tipoviaje-->
-					<div id="tipoviaje" class="row">
-						Buscador viaje
-					</div>
-					<!--Fin tipoviaje-->
-					<!--Inicio filtros-->
-					<div id="filtrosaereos" class="col-md-9">
-						
-					</div>
-					<!--Fin filtros-->
-					<!--Inicio botonbuscar-->
-					<div id="buscaraereos" class="col-md-3">
-						
-					</div>
-					<!--Fin botonbuscar-->
+			    	<form>
+				    	<!--Inicio tipoviaje-->
+						<div id="tipoviaje" class="row">
+							<div class="tipo">
+								<input type="radio"/>Ida y Vuelta
+							</div>
+							<div class="tipo">
+								<input type="radio"/>Solo Ida
+							</div>
+							<div class="tipo">
+								<input type="radio"/>Multiples destinos
+							</div>
+
+						</div>
+						<!--Fin tipoviaje-->
+						<!--Inicio filtros-->
+						<div id="filtrosaereos" class="col-md-9">
+							<div class="col-md-12">
+								<div class="salida col-md-2 col-xs-6 col-sm-6">
+									<p>Salida<p>
+									<input type="text"/>
+								</div>
+								<div class="destino col-md-2 col-xs-6 col-sm-6">
+									<p>Destino<p>
+									<input type="text"/>
+								</div>
+								<div class='input-group date fechasalida col-md-3 col-xs-12' id='datetimepicker6'>
+									<p>Fecha Regreso<p>
+									<input type='text' class="form-control" />
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-calendar"></span>
+									</span>
+								</div>
+								<div class='input-group date fecharegreso col-md-3 col-xs-12' id='datetimepicker7'>
+									<p>Fecha Regreso<p>
+									<input  type='text' class="form-control" />
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-calendar"></span>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="adultos col-md-1">
+									<p>Adultos<p>
+									<select class="form-control">
+									  <option value="0">0</option>
+									  <option value="1">1</option>
+									  <option value="2">2</option>
+									  <option value="3">3</option>
+									</select>
+								</div>
+								<div class="ninos col-md-1">
+									<p>Niños<p>
+									<select class="form-control">
+									  <option value="0">0</option>
+									  <option value="1">1</option>
+									  <option value="2">2</option>
+									  <option value="3">3</option>
+									</select>
+								</div>
+								<div class="clase col-md-2 col-md-offset-1">
+									<p>Clase<p>
+									<select class="form-control">
+									  <option value="eco">Economica</option>
+									  <option value="eje">Ejecutiva</option>
+									</select>
+								</div>
+								
+							</div>
+						</div>
+						<!--Fin filtros-->
+						<!--Inicio botonbuscar-->
+						<div id="buscaraereos" class="col-md-3">
+							<input type="Submit" value="Buscar" class="btn btn-success" />
+						</div>
+						<!--Fin botonbuscar-->
+					</form>
 			    </div>
 			    <div id="traslados" class="tab-pane fade">
-			    	<!--Inicio tipoviaje-->
-					<div id="tiposervicio" class="row">
-						buscador servicio
-					</div>
-					<!--Fin tipoviaje-->
-					<!--Inicio filtros-->
-					<div id="filtrosservicio" class="col-md-9">
-						
-					</div>
-					<!--Fin filtros-->
-					<!--Inicio botonbuscar-->
-					<div id="buscarservicios" class="col-md-3">
-						 
-					</div>
-					<!--Fin botonbuscar-->
+			    	<form>
+				    	<!--Inicio tipoviaje-->
+						<div id="tiposervicio" class="row">
+							<div class="col-md-2 col-xs-6 col-sm-6">
+								<p>Tipo de servicio<p>
+								<input type="text"/>
+							</div>
+							<div class="tiposerv col-md-3 col-xs-6 col-sm-6">
+								
+								<div class="radioserv">
+									<input type="radio"/>Solo Ida
+								</div>
+								<div class="radioserv">
+									<input type="radio"/>Ida y Vuelta
+								</div>
+							</div>
+						</div>
+						<!--Fin tipoviaje-->
+						<!--Inicio filtros-->
+						<div id="filtrosservicio" class="col-md-9">
+							<div class="combo col-md-1">
+										<p>Desde<p>
+										<select class="form-control">
+										  <option value="d1">Desde 1</option>
+										  <option value="d2">Desde 2</option>
+										</select>
+							</div>
+							<div class="combo col-md-1">
+										<p>Zona<p>
+										<select class="form-control">
+										  <option value="z1">Zona 1</option>
+										  <option value="z2">Zona 2</option>
+										</select>
+							</div>
+							<div class="combo col-md-1">
+										<p>Desde<p>
+										<select class="form-control">
+										  <option value="d1">Desde 1</option>
+										  <option value="d2">Desde 2</option>
+										</select>
+							</div>
+							<div class="combo col-md-1">
+										<p>Zona<p>
+										<select class="form-control">
+										  <option value="z1">Zona 1</option>
+										  <option value="z2">Zona 2</option>
+										</select>
+							</div>
+							<div class='input-group date fechaon col-md-2 col-xs-12' id='datetimepicker8'>
+										<p>Fecha<p>
+										<input type='text' class="form-control" />
+										<span class="input-group-addon">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</span>
+							</div>
+							<div class='input-group date fechaon col-md-2 col-xs-12' id='datetimepicker3'>
+										<p>Hora<p>
+										<input type='text' class="form-control" />
+										<span class="input-group-addon">
+											<span class="glyphicon glyphicon-time"></span>
+										</span>
+							</div>
+							<div class="adultos col-md-1">
+										<p>Adultos<p>
+										<select class="form-control">
+										  <option value="0">0</option>
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										</select>
+									</div>
+									<div class="ninos col-md-1">
+										<p>Niños<p>
+										<select class="form-control">
+										  <option value="0">0</option>
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										</select>
+									</div>
+								</div>
+								<!--Fin filtros-->
+								<!--Inicio botonbuscar-->
+								<div id="buscaraereos" class="col-md-3">
+									<input type="Submit" value="Buscar" class="btn btn-success" />
+								</div>
+								<!--Fin botonbuscar-->
+						</form>
 			    </div>
-				<div id="hoteles" class="tab-pane fade">
+				<div id="hotelesbuscar" class="tab-pane fade">
+					<form>
 					<!--Inicio filtros-->
 					<div id="filtroshoteles" class="col-md-9">
-						buscador hoteles
+						
+							<div class="col-md-12 filas">
+								<div class="destino col-md-2 col-xs-6 col-sm-6">
+										<p>Destino<p>
+										<input type="text"/>
+								</div>
+								<div class='input-group date fechasalida col-md-3 col-xs-12' id='datetimepicker9'>
+											<p>Fecha Ingreso<p>
+											<input type='text' class="form-control" />
+											<span class="input-group-addon">
+												<span class="glyphicon glyphicon-calendar"></span>
+											</span>
+								</div>
+								<div class='input-group date fechasalida col-md-3 col-xs-12' id='datetimepicker10'>
+											<p>Fecha Salida<p>
+											<input type='text' class="form-control" />
+											<span class="input-group-addon">
+												<span class="glyphicon glyphicon-calendar"></span>
+											</span>
+								</div>
+							</div>
+							<div class="col-md-12 filas">
+								<div class="combo col-md-2">
+										<p>Habitación<p>
+										<select class="form-control">
+										  <option value="0">0</option>
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										</select>
+									</div>
+								<div class="combo col-md-2">
+										<p>Adultos<p>
+										<select class="form-control">
+										  <option value="0">0</option>
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										</select>
+									</div>
+									<div class="combo col-md-2">
+										<p>Niños<p>
+										<select class="form-control">
+										  <option value="0">0</option>
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										</select>
+									</div>
+									<!--Inicio botonbuscar-->
+								<div id="buscaraereos" class="col-md-3">
+									<input type="Submit" value="Buscar" class="btn btn-success" />
+								</div>
+								<!--Fin botonbuscar-->
+							</div>
+						
 					</div>
 					<!--Fin filtros-->
-					<!--Inicio botonbuscar-->
-					<div id="buscarhoteles" class="col-md-3">
-						
-					</div>
-					<!--Fin botonbuscar-->
+					</form>
 			    </div>
-				<div id="hoteles" class="tab-pane fade">
+				<div id="tours" class="tab-pane fade">
 					<!--Inicio filtros-->
 					<div id="filtrostours" class="col-md-9">
-						
+						<div class="col-md-12">
+								<div class="combo col-md-2">
+										<p>Destino<p>
+										<select class="form-control">
+										  <option value="q">Quito, Ecuador</option>
+										  <option value="a">Amazonas</option>
+										  <option value="c">Costa</option>
+										  <option value="p">Cotopaxi</option>
+										</select>
+									</div>
+								<div class='input-group date fechaon col-md-3 col-xs-12' id='datetimepicker11'>
+									<p>Fecha de inicio<p>
+									<input type='text' class="form-control" />
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-calendar"></span>
+									</span>
+								</div>
+								<div class="combo col-md-2">
+										<p>Duración del tour<p>
+										<select class="form-control">
+										  <option value="1">1 Dia</option>
+										  <option value="2">2 Dias</option>
+										  <option value="3">3 Dias</option>
+										  <option value="4">4 Dias</option>
+										</select>
+									</div>
+							</div>
+							<div class="col-md-12">
+								<div class="combo col-md-2">
+										<p>Adultos<p>
+										<select class="form-control">
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										  <option value="4">4</option>
+										</select>
+									</div>
+								<div class="combo col-md-2">
+										<p>Niños<p>
+										<select class="form-control">
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										  <option value="4">4</option>
+										</select>
+									</div>
+
+									<!--Inicio botonbuscar-->
+								<div id="buscaraereos" class="col-md-3">
+									<input type="Submit" value="Buscar" class="btn btn-success" />
+								</div>
+								<!--Fin botonbuscar-->
+								
+							</div>
 					</div>
 					<!--Fin filtros-->
 					<!--Inicio botonbuscar-->

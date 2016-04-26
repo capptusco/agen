@@ -17,7 +17,7 @@ include('superior.php');
 	<!--Inicio Acordeones-->
 	<div id="acordeones" class="row">	
 		<!--Inicio Restaurantes-->
-		<div id="restaurantes" class="col-md-4">
+		<div id="restaurantes" class="col-md-4 col-sm-4 col-xs-4">
 			<div class="tituloacordeon row">
 				<h2>RESTAURANTES</h2>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisi sit amet 
@@ -39,7 +39,7 @@ include('superior.php');
 		</div>
 		<!--Fin Restaurantes-->
 		<!--Inicio hoteles-->
-		<div id="hoteles" class="col-md-4">
+		<div id="hoteles" class="col-md-4 col-sm-4 col-xs-4">
 			<div class="tituloacordeon row">
 				<h2>HOTELES</h2>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisi sit amet 
@@ -60,7 +60,7 @@ include('superior.php');
 		</div>
 		<!--Fin hoteles-->
 		<!--Inicio actividades-->
-		<div id="actividades" class="col-md-4">
+		<div id="actividades" class="col-md-4 col-sm-4 col-xs-4">
 			<div class="tituloacordeon row">
 				<h2>ACTIVIDADES</h2>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisi sit amet 
@@ -100,7 +100,7 @@ include('superior.php');
 		<!--Inicio paquete row1-->
 		<div class="row">
 		<!--Inicio paquete1-->
-		<div class="col-md-6 paquete">
+		<div class="col-md-6 paquete col-sm-6 col-xs-6">
 			<div class="imagenpaquete col-md-12">
 				<img src="img/tours_home/foto_alrededores.png" class="img-responsive"/>
 				<div class="fantasma">	
@@ -113,19 +113,19 @@ include('superior.php');
 				<p>Quito y sus alrededores</p>
 			</div>
 			<div class="descpaquete col-md-12">
-				<div class="descripcion col-md-7">
+				<div class="descripcion col-md-7 col-sm-7 col-xs-7">
 					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
 				</div>
-				<div class="precio col-md-5">
-					<p class="final">Precio final</p>
-					<p class="signo">$</p>
-					<p class="dolares">110</p>
+				<div class="precio col-md-5 col-sm-5 col-xs-5">
+					<p class="final col-md-5 col-xs-12 col-sm-12">Precio final</p>
+					<p class="signo col-md-1 col-sm-12 col-xs-12">$</p>
+					<p class="dolares col-md-5 col-xs-12 col-sm-12">110</p>
 				</div>
 			</div>
 		</div>
 		<!--Fin paquete1-->
 		<!--Inicio paquete2-->
-		<div class="col-md-6 paquete">
+		<div class="col-md-6 paquete col-sm-6 col-xs-6">
 			<div class="imagenpaquete col-md-12">
 				<img src="img/tours_home/foto_iglesia.png" class="img-responsive"/>
 				<div class="fantasma">	
@@ -138,13 +138,13 @@ include('superior.php');
 				<p>Andes</p>
 			</div>
 			<div class="descpaquete col-md-12">
-				<div class="descripcion col-md-7">
+				<div class="descripcion col-md-7 col-sm-7 col-xs-7">
 					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
 				</div>
-				<div class="precio col-md-5">
-					<p class="final">Precio final</p>
-					<p class="signo">$</p>
-					<p class="dolares">110</p>
+				<div class="precio col-md-5 col-sm-5 col-xs-5">
+					<p class="final col-md-5 col-xs-12 col-sm-12">Precio final</p>
+					<p class="signo col-md-1 col-sm-12 col-xs-12">$</p>
+					<p class="dolares col-md-5 col-xs-12 col-sm-12">110</p>
 				</div>
 			</div>
 		</div>
@@ -156,7 +156,7 @@ include('superior.php');
 		<!--Inicio paquete row2-->
 		<div class="row">
 		<!--Inicio paquete3-->
-		<div class="col-md-6 paquete">
+		<div class="col-md-6 paquete col-sm-6 col-xs-6">
 			<div class="imagenpaquete col-md-12">
 				<img src="img/tours_home/foto_amazonia.png" class="img-responsive"/>
 				<div class="fantasma">	
@@ -169,19 +169,19 @@ include('superior.php');
 				<p>Amazonia</p>
 			</div>
 			<div class="descpaquete col-md-12">
-				<div class="descripcion col-md-7">
+				<div class="descripcion col-md-7 col-sm-7 col-xs-7">
 					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
 				</div>
-				<div class="precio col-md-5">
-					<p class="final">Precio final</p>
-					<p class="signo">$</p>
-					<p class="dolares">87</p>
+				<div class="precio col-md-5 col-sm-5 col-xs-5">
+					<p class="final col-md-5 col-xs-12 col-sm-12">Precio final</p>
+					<p class="signo col-md-1 col-sm-12 col-xs-12">$</p>
+					<p class="dolares col-md-5 col-xs-12 col-sm-12">87</p>
 				</div>
 			</div>
 		</div>
 		<!--Fin paquete3-->
 		<!--Inicio paquete4-->
-		<div class="col-md-6 paquete">
+		<div class="col-md-6 paquete col-sm-6 col-xs-6">
 			<div class="imagenpaquete col-md-12">
 				<img src="img/tours_home/foto_galapagos.png" class="img-responsive"/>
 				<div class="fantasma">	
@@ -194,13 +194,13 @@ include('superior.php');
 				<p>Islas Galápagos,</p>
 			</div>
 			<div class="descpaquete col-md-12">
-				<div class="descripcion col-md-7">
+				<div class="descripcion col-md-7 col-sm-7 col-xs-7">
 					<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
 				</div>
-				<div class="precio col-md-5">
-					<p class="final">Precio desde</p>
-					<p class="signo">$</p>
-					<p class="dolares">819</p>
+				<div class="precio col-md-5 col-sm-5 col-xs-5">
+					<p class="final col-md-5 col-xs-12 col-sm-12">Precio final</p>
+					<p class="signo col-md-1 col-sm-12 col-xs-12">$</p>
+					<p class="dolares col-md-5 col-xs-12 col-sm-12">819</p>
 				</div>
 			</div>
 		</div>

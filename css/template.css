@@ -7,9 +7,107 @@ font-weight: 400;
 	background-color: transparent !important;
 	
 }
+#tipoviaje{
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    color: white;
+}
+.filas #buscaraereos {
+    text-align: center;
+    padding-top: 30px;
+}
+.filas .combo{
+float: left;
+}
+.filas .destino{
+    margin-right: 40px;
+    padding: 0px;
+
+}
+.tiposerv{
+    display: inline-flex;
+    padding-top: 32px;
+}
+#filtrosservicio,#filtroshoteles,#filtroshoteles .filas{
+    padding: 0px;
+    margin: 0px;
+}
+.fechaon{
+    float: left !important;
+    margin-right: 10px;
+}
+.fechaon input,.fechaon span{
+    float: left !important;
+    height: 34px !important;
+
+}
+.fechaon .form-control{
+    width: 80%;
+}
+.combo{
+    padding: 0px;
+    margin-right: 10px;
+}
+.radioserv{
+    padding-right: 20px;
+}
+.radioserv input{
+    margin-right: 10px;
+}
+.ninos{
+    padding: 0px;
+    margin-left: 20px;
+
+}
+.bootstrap-datetimepicker-widget{
+    top:-280px !important;
+}
+#filtrosaereos{
+        margin: 0px;
+    padding: 0px;
+}
+.adultos,.salida{
+padding: 0px;
+}
+.tipo{
+    padding: 10px;
+}
+.tipo input{
+        margin-right: 10px;
+}
+#buscador .tab-content{
+    
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+}
+#social{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+.colbuscar{
+        padding: 0px;
+    margin: 0px;
+    color: white;
+    padding-top: 3px;
+}
+.colbuscar form{
+color:white; 
+}
+.colbotones {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+}
 .activeslide{
     z-index:99;
     position: 
+}
+#social .img-responsive{
+display: inline;
 }
 #encabezado_paquetes{
     margin: 0px !important;
@@ -26,7 +124,7 @@ h2,h1,.precio p{
     font-weight: 400;
 }
 #copyright{
-    text-align: right;
+    text-align: center;
     padding: 0px;
     padding-top: 35px;
 
@@ -120,11 +218,7 @@ h2,h1,.precio p{
             padding: 0px;
     margin: 0px;
 }
-.precio{
-        font-size: 20px;
-    font-weight: bold;
-        padding-top: 10px;
-}
+
 a:hover{
     background: none !important;
 }
@@ -225,19 +319,7 @@ color:#015fad;
     color: #5d5d60;
 }
 
-@media (max-width: 600px) {
-    .horavuelta{
-        padding: 0px;
-    }
-    .botones{
-        margin: 0px;
-        padding: 0px;
-    }
-    .horarios{
-        text-align: center;
-        font-size: 13px;
-    }
-}
+
 
 
 
@@ -339,46 +421,77 @@ padding-top: 10px;
 	font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
-}
+} 
 .precio_boleto p{
 float:left;
     padding-top: 17px;
 }
 .precio{
-	background:green;
-	padding:0px;
-    align-items: center;
-    display: flex;
-}
-.precio p{
-float:left;
-    padding-top: 17px;
-}
-
-.precio .dolares {
-    padding-right: 8px;
-    font-size: 70px;
+        font-size: 20px;
     font-weight: bold;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-bottom: 10px;
+            padding-left: 0px;
+
+	background:green;
+    align-items: center;
+    display: inline;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+.precio p {
+ 
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+.precio .dolares {
+    font-size: 65px;
+    font-weight: bold;
+    /* padding-left: 0px; */
     margin: 0px;
     color: white;
-    float: right;
+    padding-top: 10px;
+    text-align: right;
+    /* padding: 0px; */
 }
-.final {
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    padding-left: 4px;
+.clase{
+        padding: 0px;
+            margin-left: 40px;
 }
 .signo{
-    font-size: 22px;
-    color: white;
-    padding-left: 8px;
+    padding-top: 47px !important;
+    padding-left: 5px;
+    margin:0px;
 }
-
+#buscaraereos{
+text-align: right;
+padding-top: 25px;
+}
+#buscaraereos input{
+        width: 70%;
+    border-radius: 0px;
+}
+.fechasalida {
+    float: left !important;
+    margin-right: 17px;
+}
+.destino{
+        margin-right: 60px;
+}
+.salida{
+        margin-right: 45px;
+}
+.input-group-addon {
+    float: right;
+    width: 20%;
+    height: 34px;
+    height: 27px;
+}
+.fechasalida input,.fecharegreso input{
+        float: left !important;
+    width: 80% !important;
+    height: 27px;
+        border-radius: 0px;
+}
 
 #logos img{
     margin:0px;
@@ -393,9 +506,15 @@ float:left;
     left: 9%;
     padding: 0px;
     margin: 0px;
+    color: white;
+        background: rgba(0, 0, 0, 0.6) !important;
+}
+#buscador p{
+    color: white;
 }
 #tipobusqueda{
 	    background: rgba(0, 0, 0, 0.6);
+        margin: 0px;
 }
 #tipobusqueda a{
     font-size: 15px;
@@ -507,11 +626,22 @@ float:left;
 }
 #perfil{
     padding: 0px;
+        padding-left: 20px;
+}
+.final {
+       font-size: 15px;
+    padding-top: 50px !important;
+    padding-left: 10px !important;
 }
 #social form{
     text-align: right;
     padding-right: 0px;
     margin-right: 0px;
+}
+.fa-envelope-o {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    padding-right: 10px;
 }
 .navbar-inverse,.navbar .container-fluid{
     background-color: transparent; !important;
@@ -520,6 +650,16 @@ float:left;
         background-image: none !important;
 
 }
+.fa-search{
+    padding-right: 10px;
+}
+.contactenos{
+    text-align: right;
+    padding-top: 17px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 #item_perfil {
     padding-top: 4px;
 }
@@ -527,19 +667,16 @@ float:left;
     position: relative;
     display: block;
     padding: 10px 4px !important;
-    font-size: 13px;
+        font-size: 1.3rem !important;
     background: none;
     border: none;
     box-shadow: none;
 }
 #buscador_menu_top {
-    background-color: transparent;
     border: 0px;
+    background: rgba(0, 0, 0, 0.2);
 }
-#social{
-    padding-right: 0px;
-    margin-right: 0px;
-}
+
 #social a {
     padding-right: 6px;
 }
@@ -556,6 +693,9 @@ float:left;
 .imgac{
         max-height: 60px;
         overflow: hidden;
+}
+.imgac img{
+    width: 100%;
 }
 #acordeones .active{
         max-height: 100%;
@@ -575,19 +715,128 @@ float:left;
 .navbar{
     margin-bottom: 0px !important;
 }
+@media (max-width: 1205px) {
+#perfil li a, #menu li a {
+
+    font-size: 1rem !important;
+
+}
+}
+@media (max-width: 992px) {
+    .final{
+        text-align: center;
+    }
+    #perfil li a, #menu li a {
+
+    font-size: 0.9rem !important;
+
+}
+.separadortop{
+    display: none;
+}
+.contactenos{
+font-size: 10px;
+}
+#buscador {
+    float: none;
+    margin: 0 auto;
+    z-index: 500;
+    position: relative;
+    /* top: 52%; */
+    left: 0%; 
+    padding: 0px;
+    margin: 0px;
+}
+#exampleSlider .descslide {
+    z-index: 500;
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+#btn_derecha ,#titulo{
+    text-align: center;
+    padding-top: 18px;
+}
+    .precio .dolares{
+            font-size: 50px !important;
+    font-weight: bold;
+    /* padding-left: 0px; */
+    margin: 0px;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    /* padding: 0px; */
+    }
+    .signo {
+    padding-top: 15px !important;
+    }
+    .final {
+    padding-top: 0px !important;
+}
+    .precio p{
+        text-align: center;
+    }
+    #patrocinadores {
+    padding: 0px;
+}
+#copyright {
+
+    padding-top: 20px;
+}
+}
 @media (max-width: 768px) {
+
+
+
+  #perfil li a, #menu li a {
+   
+    font-size: 0.9rem !important;
+}
+.ninos,.clase {
+    margin-left: 0px;
+}
+#buscaraereos {
+    text-align: center;
+}
+.salida,.destino{
+    margin-right: 0px;
+}
+.precio p,.precio .dolares{
+    text-align: center !important;
+}
+#social form,#perfil {
+    text-align: center;
+}
+#paquetes{
+margin:0px;
+}
+#menu {
+        padding-top: 5px;
+}
   #menusup{
     position: relative;
 }
+.signo,.final,.dolares{
+   text-align: center !important;
+    margin: 0px;
+    float: none;
+}
+
 #perfil ul{
     display: inline-flex;
 }
+
 #social{
-    width: 50%;
+    
     float: right;
+    padding-top: 10px;
 }
+
 #perfil{
-    width: 50%;
+ 
     float: left;
 }
 .navbar-form .input-group,#perfil .dropdown{
@@ -598,13 +847,11 @@ float:left;
 
 }
 #menu ul {
-    float: left; 
     width: 100%;
     padding: 0px;
 }
 #logos {
-    padding: 0px;
-    width: 50%;
+    padding: 10px;
     float: left;
 }
 .navbar-form{
@@ -614,11 +861,7 @@ margin-top: 0px;
 .navbar-nav {
     margin: 5px -15px;
 }
-#menu {
-    padding-top: 15px;
-    margin-right: 0px;
-    padding-right: 5px;
-}
+
 #buscador{
     position: relative;
     float: none;
@@ -632,21 +875,33 @@ margin-top: 0px;
         margin-bottom: -10px;
 }
 #exampleSlider .descslide {
-    z-index: 500;
+        z-index: 500;
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 0%;
+    left: 20%;
+    padding: 15px;
+    font-size: 1.5rem;
     text-align: center;
     color: white;
 }
-#restaurantes,#hoteles,#actividades{
-    width: 100%;
+#tipobusqueda a {
+    font-size: 13px;
+}
+#restaurantes, #hoteles, #actividades {
+    
     text-align: center;
-    padding: 0px 45px 0px 45px;
-
+    padding: 20px 45px 0px 45px;
+    margin: 0 auto;
+}
+.paquete{
+        
+    margin: 0 auto;
+}
+#copyright{
+    text-align: center;
 }
 #titulo {
-    width: 50%;
+    
     float: left;
     padding-left: 8%;
 }
@@ -655,6 +910,7 @@ margin-top: 0px;
 }
 .precio{
     padding: 20px;
+    padding-top: 0px;
 }
 .nombrepaquete{
         text-align: center;
@@ -664,5 +920,78 @@ margin-top: 0px;
     float: right;
     margin-right: 50px;
     margin-right: 4%;
+}
+.final{
+    padding-top: 65px !important;
+}
+#buscador_menu_top {
+
+    display: inline !important; 
+    width: 85% !important;
+}
+.colbotones {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+}
+.contactenos {
+    text-align: center;
+    padding-top: 20px;
+}
+.separadortop{
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+    .horavuelta{
+        padding: 0px;
+    }
+    .botones{
+        margin: 0px;
+        padding: 0px;
+    }
+    .horarios{
+        text-align: center;
+        font-size: 13px;
+    }
+    .paquete{
+        width: 100%;
+    }
+    .final{
+    padding-top: 60px !important;
+}
+    .descslide {
+    z-index: 500;
+    position: absolute;
+    top: 5%;
+    left: 15% !important;
+    padding: 15px;
+    font-size: 1rem !important;
+    text-align: center;
+    color: white;
+    }
+    #restaurantes, #hoteles, #actividades {
+    width: 100%;
+}
+#perfil,#social{
+    text-align: center;
+}
+#social form{
+    text-align: center;
+}
+#logos img,#logos {
+  float: none;
+    margin: 0 auto;
+}
+#btn_derecha{
+text-align: justify;
+}
+#btn_derecha {
+    padding-top: 18px;
+    float: none;
+    margin-right: 0px;
+    /* margin-right: 4%; */
 }
 }
